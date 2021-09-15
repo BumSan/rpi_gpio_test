@@ -12,7 +12,7 @@ if __name__ == '__main__':
     while True:
 
         pos = switch_position.is_switch_set_to_pv_only()
-        logging.fatal("Switch position: $s", pos)
+        logging.fatal("Switch position: %s", pos)
         time.sleep(5)
 
 
